@@ -1,0 +1,42 @@
+div.note {
+   position:absolute;
+    cursor: -webkit-grab;
+ 
+  width: 150px;
+  height: 150px;
+    background-color: yellow;
+    Border-radius:8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .2);
+    overflow: hidden;
+    margin:2px 0;
+    top:60;
+}
+.span1
+{
+   bottom:10px;
+    position:absolute;
+    right:0;
+    
+}
+/*
+.note:hover .span1
+{
+   display:block; 
+  padding-top:70%;
+}
+*/
+
+html, body {
+        
+        margin: 0px;
+        padding: 0px;
+    }
+    .board {
+        height: 100vh;
+        max-width: 100%;
+        background: #eab92d;
+        background-color: 'brown';
+    }
+button{
+    float:right;
+}
